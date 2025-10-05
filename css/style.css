@@ -56,12 +56,16 @@ footer {
 }
 
 footer ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     list-style: none;
     padding: 0;
 }
 
 footer ul li {
-    display: inline;
+  
     margin-right: 15px;
 }
 
