@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Cosmic Dream",
+    "medium": "Digital Painting",
+    "year": 2023,
+    "image": "images/cosmic-dream.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Abstract Forms",
+    "medium": "Oil on Canvas",
+    "year": 2022,
+    "image": "images/abstract-forms.jpg"
+  },
+  {
+    "id": 3,
+    "title": "City at Night",
+    "medium": "Acrylic on Canvas",
+    "year": 2023,
+    "image": "images/city-at-night.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Nature's Beauty",
+    "medium": "Watercolor on Paper",
+    "year": 2021,
+    "image": "images/natures-beauty.jpg"
+  }
+]
