@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo Gallery</title>
+    <title>Gallery</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/gallery.css">
 </head>
 <body>
     <header>
@@ -19,15 +19,16 @@
         </nav>
     </header>
     <main>
-        <!-- Main content will go here -->
+        <h1>Art Gallery</h1>
+        <div id="gallery-grid" class="gallery-grid">
+            <!-- Artworks will be loaded here dynamically -->
+        </div>
     </main>
-    <footer>
-        <p>Connect with us on social media</p>
-        <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-        </ul>
-    </footer>
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div id="caption" class="caption"></div>
+    </div>
+    <script src="js/gallery.js"></script>
 </body>
 </html>
